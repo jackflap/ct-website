@@ -1,20 +1,24 @@
-current edited stylesheet
+/*
+ *** NOTE: 
+ *** alexd@ has taken the current style.css and added it to a public github repository
+ *** Please commit any changes made to the git repository as well so that we can pinpoint breakages
+ */ 
 
 /*
-Theme Name: Maisha Lite
-Theme URI: http://www.anarieldesign.com/free-charity-wordpress-theme/
-Author: Anariel Design
-Author URI: http://www.anarieldesign.com/
-Description: "Maisha Lite" is a lite & free version of beautiful premium charity WordPress theme "Maisha". Theme is inspired by "Virunga" documentary. It is modern, responsive and mobile friendly theme.
-Version: 1.2.3
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: black, orange, white, gray, dark, light, two-columns, right-sidebar, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments
-Text Domain: maisha
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-*/
+ * Theme Name: Maisha Lite
+ * Theme URI: http://www.anarieldesign.com/free-charity-wordpress-theme/
+ * Author: Anariel Design
+ * Author URI: http://www.anarieldesign.com/
+ * Description: "Maisha Lite" is a lite & free version of beautiful premium charity WordPress theme "Maisha". Theme is inspired by "Virunga" documentary. It is modern, responsive and mobile friendly theme.
+ * Version: 1.2.3
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags: black, orange, white, gray, dark, light, two-columns, right-sidebar, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments
+ * Text Domain: maisha
+ * 
+ * This theme, like WordPress, is licensed under the GPL.
+ * Use it to make something cool, have fun, and share what you've learned with others.
+ */
 
 
 /**
@@ -64,9 +68,6 @@ html, body, div, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, a
 	border: 0;
 	
 	font-size: 100%;
-	/*font-size: 14px;*/				//maria
-	/*font-style: inherit;*/			//maria's removal
-	/*font-weight: inherit;*/			//maria's removal
 	margin: 0;
 	outline: 0;
 	padding: 0;
@@ -76,12 +77,10 @@ html, body, div, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, a
 
 html,
 body {
-//	font-weight: 300;				//maria
 	overflow-x:hidden
 }
 
 html {
-	font-family: 'Ubuntu', sans-serif;		//maria
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -197,40 +196,9 @@ a img {
 	border: 0;
 }
 
-
-/*			//maria removed this whole section, removing references to .page
-
-.page #content .entry-content a {
-	color: #333;
-	border-bottom: 1px solid #333;
-	font-weight: 600;
-}
-
-.page #content .entry-content a:hover {
-	color: #333;
-	border-bottom: 2px solid #333;
-	font-weight: 600;
-}
-
-.page #content.intro .entry-content a {
-	color: #333;
-	border-bottom: none;
-	font-weight: 600;
-}
-
-.page #content.intro .entry-content a:hover {
-	color: #333;
-	border-bottom: none;
-	font-weight: 600;
-}
-
-*/
-
 //general links for posts and pages
 .entry-content a {
 	color: #f9a919;			//comm-tech orange
-//	font-weight: 100;
-//	font-size: 20px;
 }
 
 .entry-content a:hover {	//general link hover colour for posts and pages
@@ -299,37 +267,22 @@ textarea {
 
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	/*clear: both;*/					//maria's removal
-	/*font-weight: 700;*/
-//	font-family: 'Raleway', arial, sans-serif;		//maria's removal
-}
-
 p {
-    margin-bottom: 1.6em;
+	margin-bottom: 1.6em;
 }
 
-b,
-strong {
+b, strong {
 	font-weight: 700;
 }
 
-dfn,
-cite,
-em,
-i {
+dfn, cite, em, i {
 	font-style: italic;
 }
 
 blockquote {
 	padding: 11px 22px;
-    border-left: 5px solid #f7931d;
-    background: #f4f5f5;
+	border-left: 5px solid #f7931d;
+	background: #f4f5f5;
 	font-size: 16px;
 	font-size: 1.6rem;
 	font-style: italic;
