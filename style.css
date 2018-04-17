@@ -1,7 +1,32 @@
 /*
- *** NOTE: 
- *** alexd@ has taken the current style.css and added it to a public github repository
- *** Please commit any changes made to the git repository as well so that we can pinpoint breakages
+ *
+ *
+ *
+ * **WARNING**:
+ * 
+ * We are now tracking changes to this file in a public github repository:
+ * 
+ * https://github.com/jackflap/ct-website
+ * 
+ * Feel free to make changes to the CSS in the editor for ease of testing, but once you have
+ * finished making your changes, copy the whole contents of this file into a new commit in 
+ * the above repository.
+ *
+ * You can do this by creating a github account, and using the web UI to modify the style.css
+ * file within the repository.
+ *
+ * If you do not follow this practice, any changes made will be overwritten since the github
+ * repository is now the authoritative source of the latest version of this file.
+ * 
+ * Please also use good commit practices:
+ * -- Incremental and discrete commits which clearly encapsulate specific changes
+ * -- Well-tested and known to be working code
+ * -- Descriptive commit messages
+ *
+ * If you encounter problems, email alexd@comm-tech.org
+ *
+ *
+ *
  */ 
 
 /*
