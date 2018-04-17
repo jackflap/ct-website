@@ -151,7 +151,7 @@ q {
 }
 
 			
-/* CFP LOGO CONTAINER BEGIN */				//maria adds whole section
+/* CFP LOGO CONTAINER BEGIN */				/* maria adds whole section */
 
 .cfp-logo-section {
 	/*background-color: red;*/
@@ -196,13 +196,13 @@ a img {
 	border: 0;
 }
 
-//general links for posts and pages
+/* general links for posts and pages */
 .entry-content a {
-	color: #f9a919;			//comm-tech orange
+	color: #f9a919;			/* comm-tech orange */
 }
 
-.entry-content a:hover {	//general link hover colour for posts and pages
-	color: #c6cbd7;			//light grey
+.entry-content a:hover {	/* general link hover colour for posts and pages */
+	color: #c6cbd7;			/* light grey */
 }
 
 
@@ -243,7 +243,7 @@ a img {
 	font-variant: normal;
 	line-height: 1;
 	speak: none;
-	text-align: left;			//MEP change from center
+	text-align: left;			/* MEP change from center */
 	text-decoration: inherit;
 	text-transform: none;
 	vertical-align: top;
@@ -260,10 +260,10 @@ input,
 select,
 textarea {
 	color: #333;
-//	font-family: 'Helvetica Neue', arial, sans-serif;	//maria's removal
+	font-family: 'Helvetica Neue', arial, sans-serif;
 	font-size: 16px;
 	font-size: 1.6rem;
-	line-height: 1.4;					//maria change from 1.6
+	line-height: 1.4;					/* maria change from 1.6 */
 
 }
 
@@ -302,7 +302,7 @@ blockquote > p:last-child {
 
 blockquote cite,
 blockquote small {
-//	font-family: 'Helvetica Neue', arial, sans-serif;		//marias removal
+	font-family: 'Helvetica Neue', arial, sans-serif;
 	color: #333;
 	font-size: 14px;
 	font-size: 1.4rem;
@@ -331,7 +331,7 @@ tt,
 var,
 samp,
 pre {
-//	font-family: Inconsolata, monospace;		//marias removal
+	font-family: Inconsolata, monospace;
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
@@ -478,7 +478,7 @@ img {
 }
 
 /*
-.custom-logo {					//maria removed
+.custom-logo {					/* maria removed */
 	max-width: inherit;
 */
 
@@ -683,10 +683,10 @@ input[type="radio"] {
 
 
 /**
- * 6.1 Links					//many changes from original in this section
+ * 6.1 Links	(many changes from original in this section)
  */
 
-.item-title a {					//item-title class marias addition//
+.item-title a {					/* item-title class marias addition */
 	font-weight: bold; 
 /*	font-size: 14px; */
 	font-size: 1.4rem;
@@ -699,19 +699,19 @@ input[type="radio"] {
 	font-family: 'Genericons';
 }
 
-.item-title a:hover {		//main navigation header link hover
-	color: #f9a919;			//comm-tech orange
+.item-title a:hover {		/* main navigation header link hover */
+	color: #f9a919;			/* comm-tech orange */
 }
 
 a {
-	color: #707070; 		//general link colour, needs to be dark grey for menu items
+	color: #707070; 		/* general link colour, needs to be dark grey for menu items */
 	text-decoration: none;
 }
 
 a:hover,
 a:focus {
 	/* color: #3ce600; */
-    color: #c6cbd7;  		//general link hover, usually light grey
+    color: #c6cbd7;  		/* general link hover, usually light grey */
 }
 
 a:focus {
@@ -765,8 +765,8 @@ a:hover {
 	text-align: right;
 }
 
-.navigation-main a {			//appearance of main menu heading links
-	color: #333;				//dark grey
+.navigation-main a {			/* appearance of main menu heading links */
+	color: #333;				/* dark grey */
 	display: inline-block;
 	padding: 0 15px;
 	text-transform: uppercase;
@@ -778,19 +778,19 @@ a:hover {
 }
 
 .navigation-main a:hover {
-	color: #f9a919;				//main navigation menu hover - comm-tech orange
+	color: #f9a919;				/* main navigation menu hover - comm-tech orange */
 }
 
 .navigation-main .current_page_item > a, 
 .navigation-main .current-menu-item > a, 
 .navigation-main .current_page_ancestor > a {
-	color: #f9a919;					//SELECTED main menu heading colour
+	color: #f9a919;					/* SELECTED main menu heading colour */
 	font-weight: bold;
 }
 
 .navigation-main li.current_page_item li a, 
 .navigation-main li.current_page_item li li a {
-	color: #333;					//colour of submenu items under SELECTED menu heading
+	color: #333;					/* colour of submenu items under SELECTED menu heading */
 }
 
 .menu-mainnav-container {
@@ -846,7 +846,7 @@ a:hover {
 }
 
 .navigation-main ul li.menu-item-has-children > a:after {
-	color: #f9a919;									//colour of submenu indicator triangle glyphs (disappeared??). Also affects submenu hover colour 
+	color: #f9a919;									/* colour of submenu indicator triangle glyphs (disappeared??). Also affects submenu hover colour */
 	content: '\f502';
 	font-family: 'Genericons';
 	padding-left: 0.5em;
@@ -2148,8 +2148,7 @@ a.post-thumbnail:focus {
 .entry-content,
 .entry-summary {
 	padding: 0 7.6923% 4.6923%;
-//MEP edit from justify
-	text-align: left;
+	text-align: left;						/* MEP edit from justify */
 }
 
 .entry-content > :last-child,
@@ -2614,7 +2613,7 @@ a.more-link {
 
 .page-links a:hover,
 .page-links a:focus {
-	background-color: #828282;			//medium-grey
+	background-color: #828282;			/* medium-grey */
 	border-color: transparent;
 	color: #fff;
 }
@@ -2772,8 +2771,7 @@ a.more-link {
 .news .entry-header,
 .news .entry-content {
 	padding: 0;
-//MEP edit from justify
-	text-align: left;
+	text-align: left; 						/* MEP edit from justify */
 }
 
 .news article {
@@ -7317,14 +7315,13 @@ p > video {
 		margin-top: 0;
 		}
 }
-//MEP edit from justify
+
 .para {
-	text-align: left;
+	text-align: left;		/* MEP edit from justify */
 	font-weight: 300;
 }
 
-//MEP edit from justify
-.show-para {text-align: left;}
+.show-para {text-align: left;}		/* MEP edit from justify */
 
 /* MORE/LESS BEGIN */
 
@@ -7442,8 +7439,8 @@ p > video {
 	width: 30%;
 	margin: 0 20px;
 }
-//MEP edit from justify
-.contacts-item2, .contacts-item3 {text-align:left;}
+
+.contacts-item2, .contacts-item3 {text-align:left;} 	/* MEP edit from justify */
 
 .button {margin-top:10px;}
 
@@ -7479,7 +7476,7 @@ p > video {
 }
 
 .front-page-links a:hover {
-	color: #c6cbd7;				//light grey
+	color: #c6cbd7;		/* light grey */
 }
 
 
@@ -7715,9 +7712,8 @@ h6 {
 	margin: 0 0 -10px 0;
 }
 
-//MEP edit from justify
 p {
-	text-align: left;
+	text-align: left; /* MEP edit from justify */
 }
 
 .history-heading {
