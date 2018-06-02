@@ -3103,24 +3103,7 @@ form.wpcf7-form {
 	clear: right;
 }
 
-/* Meet the Team */
-.meet-the-team-page-buffer {
-	display: flex;
-  flex-wrap: wrap;
-}
 
-.meet-the-team-page-buffer > .colleague {
-	width: 100%;
-}
-
-.colleagueImage,
-.colleagues-description {
-	width: 100%;
-}
-
-.colleagueImage {
-	border-radius: 3%;
-}
 
 /**
  * 12.3 Comments
@@ -3892,10 +3875,16 @@ p > video {
 	.full-width-page-buffer {
 		margin: 0 150px 0;
 	}
+	.meet-the-team-page-buffer {
+		margin: 0 300px 0;
+	}
 }
 
 @media screen and (max-width: 1000px) {
 	.full-width-page-buffer {
+		margin: 0;
+	}
+	.meet-the-team-page-buffer {
 		margin: 0;
 	}
 }
